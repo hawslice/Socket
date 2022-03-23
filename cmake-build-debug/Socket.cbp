@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/CLionProjects/Socket/Linux/inet_addr.cpp">
+			<Option target="Socket"/>
+		</Unit>
+		<Unit filename="D:/CLionProjects/Socket/Linux/inet_aton.cpp">
+			<Option target="Socket"/>
+		</Unit>
 		<Unit filename="D:/CLionProjects/Socket/main.cpp">
 			<Option target="Socket"/>
 		</Unit>

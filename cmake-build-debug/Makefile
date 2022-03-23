@@ -142,6 +142,60 @@ Socket/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Socket.dir\build.make CMakeFiles/Socket.dir/build
 .PHONY : Socket/fast
 
+Linux/inet_addr.obj: Linux/inet_addr.cpp.obj
+
+.PHONY : Linux/inet_addr.obj
+
+# target to build an object file
+Linux/inet_addr.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Socket.dir\build.make CMakeFiles/Socket.dir/Linux/inet_addr.cpp.obj
+.PHONY : Linux/inet_addr.cpp.obj
+
+Linux/inet_addr.i: Linux/inet_addr.cpp.i
+
+.PHONY : Linux/inet_addr.i
+
+# target to preprocess a source file
+Linux/inet_addr.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Socket.dir\build.make CMakeFiles/Socket.dir/Linux/inet_addr.cpp.i
+.PHONY : Linux/inet_addr.cpp.i
+
+Linux/inet_addr.s: Linux/inet_addr.cpp.s
+
+.PHONY : Linux/inet_addr.s
+
+# target to generate assembly for a file
+Linux/inet_addr.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Socket.dir\build.make CMakeFiles/Socket.dir/Linux/inet_addr.cpp.s
+.PHONY : Linux/inet_addr.cpp.s
+
+Linux/inet_aton.obj: Linux/inet_aton.cpp.obj
+
+.PHONY : Linux/inet_aton.obj
+
+# target to build an object file
+Linux/inet_aton.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Socket.dir\build.make CMakeFiles/Socket.dir/Linux/inet_aton.cpp.obj
+.PHONY : Linux/inet_aton.cpp.obj
+
+Linux/inet_aton.i: Linux/inet_aton.cpp.i
+
+.PHONY : Linux/inet_aton.i
+
+# target to preprocess a source file
+Linux/inet_aton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Socket.dir\build.make CMakeFiles/Socket.dir/Linux/inet_aton.cpp.i
+.PHONY : Linux/inet_aton.cpp.i
+
+Linux/inet_aton.s: Linux/inet_aton.cpp.s
+
+.PHONY : Linux/inet_aton.s
+
+# target to generate assembly for a file
+Linux/inet_aton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Socket.dir\build.make CMakeFiles/Socket.dir/Linux/inet_aton.cpp.s
+.PHONY : Linux/inet_aton.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -178,6 +232,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Socket
+	@echo ... Linux/inet_addr.obj
+	@echo ... Linux/inet_addr.i
+	@echo ... Linux/inet_addr.s
+	@echo ... Linux/inet_aton.obj
+	@echo ... Linux/inet_aton.i
+	@echo ... Linux/inet_aton.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

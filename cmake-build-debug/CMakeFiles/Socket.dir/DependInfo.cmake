@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "D:/CLionProjects/Socket/Linux/inet_addr.cpp" "D:/CLionProjects/Socket/cmake-build-debug/CMakeFiles/Socket.dir/Linux/inet_addr.cpp.obj"
+  "D:/CLionProjects/Socket/Linux/inet_aton.cpp" "D:/CLionProjects/Socket/cmake-build-debug/CMakeFiles/Socket.dir/Linux/inet_aton.cpp.obj"
   "D:/CLionProjects/Socket/main.cpp" "D:/CLionProjects/Socket/cmake-build-debug/CMakeFiles/Socket.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

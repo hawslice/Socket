@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Socket.dir/Linux/inet_addr.cpp.obj"
+  "CMakeFiles/Socket.dir/Linux/inet_aton.cpp.obj"
   "CMakeFiles/Socket.dir/main.cpp.obj"
   "Socket.exe"
   "Socket.exe.manifest"
